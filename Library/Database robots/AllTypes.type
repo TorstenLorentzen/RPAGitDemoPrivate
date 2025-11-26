@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="kapow.robot.common.domain.Type" serializationversion="0">
+  <prologue>
+    <saved-by-versions>
+      <version>11.5.0.0</version>
+      <version>2026.1.0.0</version>
+    </saved-by-versions>
+    <file-type>type</file-type>
+  </prologue>
+  <property name="attributes" class="kapow.robot.common.domain.Attributes">
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">text</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType"/>
+      <property name="recordFieldType" class="String">Text</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">html</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.HTMLCodeAttributeType"/>
+      <property name="recordFieldType" class="String">Text</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">int</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType"/>
+      <property name="recordFieldType" class="String">Integer</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">num</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.DoubleAttributeType"/>
+      <property name="recordFieldType" class="String">Number</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">bool</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.BooleanAttributeType"/>
+      <property name="recordFieldType" class="String">Boolean</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">date</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.DateAttributeType" id="0"/>
+      <property name="recordFieldType" class="String">Date</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">time</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" class="String">Time</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">dateTime</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" class="String">DateTime</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">bin</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.BinaryAttributeType"/>
+      <property name="recordFieldType" class="String">Binary</property>
+    </object>
+  </property>
+</object>
